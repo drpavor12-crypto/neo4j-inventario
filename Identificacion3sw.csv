@@ -1,0 +1,18 @@
+hostname,serial_number,ip_gestion,tipo,fabricante,modelo,es_modular,role,region,comuna,ubicacion,rack,num_puertos_conect,num_puertos_totales
+CH-SW-01-LRY,FOC2334R09Q,172.23.237.132,Switch,CISCO,N3K-C3048TP-1GE,si,PE,Metropolitana,Colina,Liray,,31.0,53.0
+CH-SW-02-LRY,FOC2334R04W,172.23.237.133,Switch,CISCO,N3K-C3048TP-1GE,si,PE,Metropolitana,Colina,Liray,,31.0,53.0
+OCC4,,,,,,,,,,,,,
+SDPDOR7A,CZ36145NKK,172.23.114.13,Servidor,HP,ProLiant DL360p Gen9,si,PE,Metropolitana,Colina,Liray,,,
+SDPDOR7B,CZ36145NKL,172.23.114.14,Servidor,HP,ProLiant DL360p Gen9,si,PE,Metropolitana,Colina,Liray,,,
+AIRDOR9,CZ3335MD96,172.23.114.23,Servidor,HP, ProLiant DL360p Gen8,si,PE,Metropolitana,Colina,Liray,,,
+OCCDOR1,MXQ62600DN,172.23.114.5,Servidor,HP,ProLiant DL360 Gen9,si,PE,Metropolitana,Colina,Liray,,,
+AIRDOR11,CZ36145TLT,172.23.114.24,Servidor,HP,ProLiant DL360 Gen9,si,PE,Metropolitana,Colina,Liray,,,
+LB_B,,,,,,,,,,,,,
+LB_A,,,,,,,,,,,,,
+AIRDOR12,CZ36145TLS,172.23.114.25,Servidor,HP,ProLiant DL360 Gen9,si,PE,Metropolitana,Colina,Liray,,,
+AIRDOR13,CZ36145TLR,172.23.114.26,Servidor,HP,ProLiant DL360 Gen9,si,PE,Metropolitana,Colina,Liray,,,
+CHSW02DOR,,,,,,,,,,,,,
+CCN7,,,,,,,,,,,,,
+CCN6,,,,,,,,,,,,,
+Monitor Server eno5,,,,,,,,,,,,,
+SCLLIR-MPE2,,,,,,,,,,,,,

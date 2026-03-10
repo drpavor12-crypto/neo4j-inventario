@@ -1,0 +1,107 @@
+host_puerto_id;hostname;puerto_id;desc_conexion;tipo_puerto;velocidad;estado_puerto;vlan;modo;mac_conectada;Duplex;remote_hostname;link_id;owner_switch
+CH-SW-01-LRY_port-channel1;CH-SW-02-LRY;port-channel1;Conexion back2back CH-SW-02-LRY;interface lógica;;activo;506,651,655-658,662;trunk;;;CH-SW-02-LRY;LNK:CH-SW-01-LRY:port-channel1__CH-SW-02-LRY:port-channel1;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/1;;Ethernet1/1;;físico;;activo;503;trunk;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/2;;Ethernet1/2;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/3;OCC4;Ethernet1/3;OCC4 eno5;físico;1000.0;activo;655;access;;full;OCC4;LNK:CH-SW-01-LRY:Ethernet1/3__OCC4;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/4;OCC4;Ethernet1/4;OCC4 eno6;físico;1000.0;activo;662;access;;full;OCC4;LNK:CH-SW-01-LRY:Ethernet1/4__OCC4;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/5;OCC4;Ethernet1/5;OCC4 eno7;físico;1000.0;activo;661;access;;full;OCC4;LNK:CH-SW-01-LRY:Ethernet1/5__OCC4;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/6;;Ethernet1/6;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/7;SDPDOR7A;Ethernet1/7;Conexion a SDPDOR7A / Payload;físico;100.0;activo;655;access;;full;SDPDOR7A;LNK:CH-SW-01-LRY:Ethernet1/7__SDPDOR7A;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/8;;Ethernet1/8;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/9;;Ethernet1/9;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/10;SDPDOR7B;Ethernet1/10;SDPDOR7B-eno52;físico;;activo;658;access;;full;SDPDOR7B;LNK:CH-SW-01-LRY:Ethernet1/10__SDPDOR7B;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/11;;Ethernet1/11;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/12;;Ethernet1/12;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/13;;Ethernet1/13;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/14;;Ethernet1/14;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/15;;Ethernet1/15;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/16;AIRDOR9;Ethernet1/16;Conexion a AIRDOR9 / Payload;físico;;activo;655;access;;;AIRDOR9;LNK:AIRDOR9__CH-SW-01-LRY:Ethernet1/16;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/17;OCCDOR1;Ethernet1/17;Conexion a OCCDOR1 / Payload;físico;1000.0;activo;655;access;;full;OCCDOR1;LNK:CH-SW-01-LRY:Ethernet1/17__OCCDOR1;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/18;AIRDOR11;Ethernet1/18;Conexion a AIRDOR11 / Payload;físico;100.0;activo;655;access;;full;AIRDOR11;LNK:AIRDOR11__CH-SW-01-LRY:Ethernet1/18;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/19;LB_B;Ethernet1/19;Conexion a LB_B / Payload FE;físico;100.0;activo;656;access;;full;LB_B;LNK:CH-SW-01-LRY:Ethernet1/19__LB-B;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/20;LB_B;Ethernet1/20;Conexion a LB_B / Payload BE;físico;100.0;activo;655;access;;full;LB_B;LNK:CH-SW-01-LRY:Ethernet1/20__LB-B;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/21;LB_A;Ethernet1/21;Conexion a LB_A / O&M / MGMT;físico;100.0;activo;651;access;;full;LB_A;LNK:CH-SW-01-LRY:Ethernet1/21__LB-A;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/22;AIRDOR12;Ethernet1/22;AIRDOR12 / O&M;físico;1000.0;activo;651;access;;full;AIRDOR12;LNK:AIRDOR12__CH-SW-01-LRY:Ethernet1/22;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/23;AIRDOR12;Ethernet1/23;Conexion a AIRDOR12 / Payload;físico;1000.0;activo;655;access;;full;AIRDOR12;LNK:AIRDOR12__CH-SW-01-LRY:Ethernet1/23;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/24;AIRDOR12;Ethernet1/24;Conexion a AIRDOR12 / Sigtran2;físico;100.0;activo;653;access;;full;AIRDOR12;LNK:AIRDOR12__CH-SW-01-LRY:Ethernet1/24;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/25;AIRDOR13;Ethernet1/25;Conexion a AIRDOR13 / O&M;físico;100.0;activo;651;access;;full;AIRDOR13;LNK:AIRDOR13__CH-SW-01-LRY:Ethernet1/25;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/26;AIRDOR13;Ethernet1/26;Conexion a AIRDOR13 / Payload;físico;1000.0;activo;655;access;;full;AIRDOR13;LNK:AIRDOR13__CH-SW-01-LRY:Ethernet1/26;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/27;;Ethernet1/27;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/28;OCCDOR1;Ethernet1/28;Conexion Diameter a ETH5-OCCDOR1;físico;;activo;657;access;;;OCCDOR1;LNK:CH-SW-01-LRY:Ethernet1/28__OCCDOR1;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/29;OCCDOR1;Ethernet1/29;Conexion Diameter a ETH6-OCCDOR1;físico;1000.0;activo;653;access;;full;OCCDOR1;LNK:CH-SW-01-LRY:Ethernet1/29__OCCDOR1;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/30;;Ethernet1/30;;físico;;inactivo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/31;;Ethernet1/31;;físico;;inactivo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/32;SDPDOR7B;Ethernet1/32;Conexion a SDPDOR7B / O&M;físico;100.0;activo;651;access;;full;SDPDOR7B;LNK:CH-SW-01-LRY:Ethernet1/32__SDPDOR7B;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/33;SDPDOR7A;Ethernet1/33;Conexion a SDPDOR7A / Payload;físico;1000.0;activo;655;access;;full;SDPDOR7A;LNK:CH-SW-01-LRY:Ethernet1/33__SDPDOR7A;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/34;SDPDOR7B;Ethernet1/34;Conexion a SDPDOR7B / Sigtran2;físico;1000.0;activo;653;access;;full;SDPDOR7B;LNK:CH-SW-01-LRY:Ethernet1/34__SDPDOR7B;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/35;;Ethernet1/35;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/36;CHSW02DOR;Ethernet1/36;CHSW02DOR / arch-srv_net1;físico;;activo;651;access;;;CHSW02DOR;LNK:CH-SW-01-LRY:Ethernet1/36__CHSW02DOR;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/37;CCN7;Ethernet1/37;Conexion a CMXB 0-28 (RIGHT) GE2 CCN7;físico;1000.0;activo;222;trunk;;full;CCN7;LNK:CCN7__CH-SW-01-LRY:Ethernet1/37;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/38;CCN7;Ethernet1/38;Conexion a CMXB 0-28 (RIGHT) GE4 CCN7;físico;1000.0;activo;219-220;trunk;;full;CCN7;LNK:CCN7__CH-SW-01-LRY:Ethernet1/38;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/39;;Ethernet1/39;;físico;;activo;;routed;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/40;;Ethernet1/40;;físico;;activo;;monitor;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/41;CCN6;Ethernet1/41;Conexion a CMXB 0-28 (RIGHT) GE2 CCN6;físico;1000.0;activo;215-216;trunk;;full;CCN6;LNK:CCN6__CH-SW-01-LRY:Ethernet1/41;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/42;CCN6;Ethernet1/42;Conexion a CMXB 0-28 (RIGHT) GE2 CCN6;físico;1000.0;activo;218;trunk;;full;CCN6;LNK:CCN6__CH-SW-01-LRY:Ethernet1/42;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/43;;Ethernet1/43;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/44;;Ethernet1/44;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/45;;Ethernet1/45;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/46;Monitor Server eno5;Ethernet1/46;Monitor Server eno5;físico;1000.0;activo;655;access;;full;Monitor Server eno5;LNK:CH-SW-01-LRY:Ethernet1/46__MONITOR SERVER ENO5;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/47;CH-SW-02-LRY;Ethernet1/47;Conexion back2back CH-SW-02-LRY;físico;1000.0;activo;506,651,655-658,662;trunk;;;CH-SW-02-LRY;LNK:CH-SW-01-LRY:Ethernet1/47__CH-SW-02-LRY:Ethernet1/47;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/48;CH-SW-02-LRY;Ethernet1/48;Conexion back2back CH-SW-02-LRY;físico;1000.0;activo;506,651,655-658,662;trunk;;;CH-SW-02-LRY;LNK:CH-SW-01-LRY:Ethernet1/48__CH-SW-02-LRY:Ethernet1/48;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/49;SCLLIR-MPE2;Ethernet1/49;Conexion a SCLLIR-MPE2;físico;;activo;215-216,218-220,222,501,506,651,653,655-658,661-662;trunk;;full;SCLLIR-MPE2;LNK:CH-SW-01-LRY:Ethernet1/49__SCLLIR-MPE2;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/50;;Ethernet1/50;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/51;;Ethernet1/51;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-01-LRY_Ethernet1/52;;Ethernet1/52;;físico;;activo;;;;;;;CH-SW-01-LRY
+CH-SW-02-LRY_port-channel1;CH-SW-01-LRY;port-channel1;Conexion back2back CH-SW-01-LRY;interface lógica;;activo;506,651,655-658,662;trunk;;;CH-SW-01-LRY;LNK:CH-SW-02-LRY:port-channel1__CH-SW-01-LRY:port-channel1;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/1;;Ethernet1/1;;físico;;activo;503;trunk;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/2;;Ethernet1/2;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/3;OCC4;Ethernet1/3;OCC4 eno5;físico;1000.0;activo;655;access;;full;OCC4;LNK:CH-SW-02-LRY:Ethernet1/3__OCC4;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/4;OCC4;Ethernet1/4;OCC4 eno6;físico;1000.0;activo;662;access;;full;OCC4;LNK:CH-SW-02-LRY:Ethernet1/4__OCC4;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/5;OCC4;Ethernet1/5;OCC4 eno7;físico;1000.0;activo;661;access;;full;OCC4;LNK:CH-SW-02-LRY:Ethernet1/5__OCC4;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/6;;Ethernet1/6;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/7;SDPDOR7A;Ethernet1/7;Conexion a SDPDOR7A / Payload;físico;100.0;activo;655;access;;full;SDPDOR7A;LNK:CH-SW-02-LRY:Ethernet1/7__SDPDOR7A;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/8;;Ethernet1/8;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/9;;Ethernet1/9;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/10;SDPDOR7B;Ethernet1/10;SDPDOR7B-eno52;físico;;activo;658;access;;full;SDPDOR7B;LNK:CH-SW-02-LRY:Ethernet1/10__SDPDOR7B;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/11;;Ethernet1/11;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/12;;Ethernet1/12;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/13;;Ethernet1/13;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/14;;Ethernet1/14;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/15;;Ethernet1/15;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/16;AIRDOR9;Ethernet1/16;Conexion a AIRDOR9 / Payload;físico;;activo;655;access;;;AIRDOR9;LNK:AIRDOR9__CH-SW-02-LRY:Ethernet1/16;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/17;OCCDOR1;Ethernet1/17;Conexion a OCCDOR1 / Payload;físico;1000.0;activo;655;access;;full;OCCDOR1;LNK:CH-SW-02-LRY:Ethernet1/17__OCCDOR1;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/18;AIRDOR11;Ethernet1/18;Conexion a AIRDOR11 / Payload;físico;100.0;activo;655;access;;full;AIRDOR11;LNK:AIRDOR11__CH-SW-02-LRY:Ethernet1/18;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/19;LB_B;Ethernet1/19;Conexion a LB_B / Payload FE;físico;100.0;activo;656;access;;full;LB_B;LNK:CH-SW-02-LRY:Ethernet1/19__LB-B;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/20;LB_B;Ethernet1/20;Conexion a LB_B / Payload BE;físico;100.0;activo;655;access;;full;LB_B;LNK:CH-SW-02-LRY:Ethernet1/20__LB-B;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/21;LB_A;Ethernet1/21;Conexion a LB_A / O&M / MGMT;físico;100.0;activo;651;access;;full;LB_A;LNK:CH-SW-02-LRY:Ethernet1/21__LB-A;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/22;AIRDOR12;Ethernet1/22;AIRDOR12 / O&M;físico;1000.0;activo;651;access;;full;AIRDOR12;LNK:AIRDOR12__CH-SW-02-LRY:Ethernet1/22;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/23;AIRDOR12;Ethernet1/23;Conexion a AIRDOR12 / Payload;físico;1000.0;activo;655;access;;full;AIRDOR12;LNK:AIRDOR12__CH-SW-02-LRY:Ethernet1/23;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/24;AIRDOR12;Ethernet1/24;Conexion a AIRDOR12 / Sigtran2;físico;100.0;activo;653;access;;full;AIRDOR12;LNK:AIRDOR12__CH-SW-02-LRY:Ethernet1/24;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/25;AIRDOR13;Ethernet1/25;Conexion a AIRDOR13 / O&M;físico;100.0;activo;651;access;;full;AIRDOR13;LNK:AIRDOR13__CH-SW-02-LRY:Ethernet1/25;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/26;AIRDOR13;Ethernet1/26;Conexion a AIRDOR13 / Payload;físico;1000.0;activo;655;access;;full;AIRDOR13;LNK:AIRDOR13__CH-SW-02-LRY:Ethernet1/26;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/27;;Ethernet1/27;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/28;OCCDOR1;Ethernet1/28;Conexion Diameter a ETH5-OCCDOR1;físico;;activo;657;access;;;OCCDOR1;LNK:CCN7__CH-SW-02-LRY:Ethernet1/28;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/29;OCCDOR1;Ethernet1/29;Conexion Diameter a ETH6-OCCDOR1;físico;1000.0;activo;653;access;;full;OCCDOR1;LNK:CCN7__CH-SW-02-LRY:Ethernet1/29;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/30;;Ethernet1/30;;físico;;inactivo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/31;;Ethernet1/31;;físico;;inactivo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/32;SDPDOR7B;Ethernet1/32;Conexion a SDPDOR7B / O&M;físico;100.0;activo;651;access;;full;SDPDOR7B;LNK:CH-SW-02-LRY:Ethernet1/32__SDPDOR7B;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/33;SDPDOR7A;Ethernet1/33;Conexion a SDPDOR7A / Payload;físico;1000.0;activo;655;access;;full;SDPDOR7A;LNK:CH-SW-02-LRY:Ethernet1/33__SDPDOR7A;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/34;SDPDOR7B;Ethernet1/34;Conexion a SDPDOR7B / Sigtran2;físico;1000.0;activo;653;access;;full;SDPDOR7B;LNK:CH-SW-02-LRY:Ethernet1/34__SDPDOR7B;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/35;;Ethernet1/35;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/36;CHSW02DOR;Ethernet1/36;CHSW02DOR / arch-srv_net1;físico;;activo;651;access;;;CHSW02DOR;LNK:CH-SW-02-LRY:Ethernet1/36__CHSW02DOR;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/37;CCN7;Ethernet1/37;Conexion a CMXB 0-28 (RIGHT) GE2 CCN7;físico;1000.0;activo;222;trunk;;full;CCN7;LNK:CH-SW-02-LRY:Ethernet1/37__CMXB;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/38;CCN7;Ethernet1/38;Conexion a CMXB 0-28 (RIGHT) GE4 CCN7;físico;1000.0;activo;219-220;trunk;;full;CCN7;LNK:CH-SW-02-LRY:Ethernet1/38__CMXB;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/39;;Ethernet1/39;;físico;;activo;;routed;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/40;;Ethernet1/40;;físico;;activo;;monitor;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/41;CCN6;Ethernet1/41;Conexion a CMXB 0-28 (RIGHT) GE2 CCN6;físico;1000.0;activo;215-216;trunk;;full;CCN6;LNK:CH-SW-02-LRY:Ethernet1/41__CMXB;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/42;CCN6;Ethernet1/42;Conexion a CMXB 0-28 (RIGHT) GE2 CCN6;físico;1000.0;activo;218;trunk;;full;CCN6;LNK:CH-SW-02-LRY:Ethernet1/42__CMXB;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/43;;Ethernet1/43;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/44;;Ethernet1/44;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/45;;Ethernet1/45;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/46;Monitor Server eno5;Ethernet1/46;Monitor Server eno5;físico;1000.0;activo;655;access;;full;Monitor Server eno5;LNK:CH-SW-02-LRY:Ethernet1/46__MONITOR;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/47;CH-SW-01-LRY;Ethernet1/47;Conexion back2back CH-SW-01-LRY;físico;1000.0;activo;506,651,655-658,662;trunk;;;CH-SW-01-LRY;LNK:CH-SW-02-LRY:Ethernet1/47__CH-SW-01-LRY:Ethernet1/47;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/48;CH-SW-01-LRY;Ethernet1/48;Conexion back2back CH-SW-01-LRY;físico;1000.0;activo;506,651,655-658,662;trunk;;;CH-SW-01-LRY;LNK:CH-SW-02-LRY:Ethernet1/48__CH-SW-01-LRY:Ethernet1/48;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/49;SCLLIR-MPE2;Ethernet1/49;Conexion a SCLLIR-MPE2;físico;;activo;215-216,218-220,222,501,506,651,653,655-658,661-662;trunk;;full;SCLLIR-MPE2;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/50;;Ethernet1/50;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/51;;Ethernet1/51;;físico;;activo;;;;;;;CH-SW-02-LRY
+CH-SW-02-LRY_Ethernet1/52;;Ethernet1/52;;físico;;activo;;;;;;;CH-SW-02-LRY
