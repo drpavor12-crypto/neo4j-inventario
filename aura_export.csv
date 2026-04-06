@@ -1,0 +1,286 @@
+_id;_labels;Duplex;comuna;desc_conexion;es_modular;estado_puerto;fabricante;host_puerto_id;hostname;ip_gestion;link_id;modelo;modo;num_puertos_conect;num_puertos_totales;owner_switch;puerto_id;region;remote_hostname;role;serial_number;tipo;tipo_puerto;ubicacion;velocidad;vlan;_start;_end;_type
+0;:Equipo;;Colina;;si;;CISCO;;CH-SW-01-LRY;172.23.237.132;;N3K-C3048TP-1GE;;31.0;53.0;;;Metropolitana;;PE;FOC2334R09Q;Switch;;Liray;;;;;
+1;:Equipo;;Colina;;si;;CISCO;;CH-SW-02-LRY;172.23.237.133;;N3K-C3048TP-1GE;;31.0;53.0;;;Metropolitana;;PE;FOC2334R04W;Switch;;Liray;;;;;
+2;:Equipo;;;;;;;;OCC4;;;;;;;;;;;;;;;;;;;;
+3;:Equipo;;Colina;;si;;HP;;SDPDOR7A;172.23.114.13;;ProLiant DL360p Gen9;;;;;;Metropolitana;;PE;CZ36145NKK;Servidor;;Liray;;;;;
+4;:Equipo;;Colina;;si;;HP;;SDPDOR7B;172.23.114.14;;ProLiant DL360p Gen9;;;;;;Metropolitana;;PE;CZ36145NKL;Servidor;;Liray;;;;;
+5;:Equipo;;Colina;;si;;HP;;AIRDOR9;172.23.114.23;; ProLiant DL360p Gen8;;;;;;Metropolitana;;PE;CZ3335MD96;Servidor;;Liray;;;;;
+6;:Equipo;;Colina;;si;;HP;;OCCDOR1;172.23.114.5;;ProLiant DL360 Gen9;;;;;;Metropolitana;;PE;MXQ62600DN;Servidor;;Liray;;;;;
+7;:Equipo;;Colina;;si;;HP;;AIRDOR11;172.23.114.24;;ProLiant DL360 Gen9;;;;;;Metropolitana;;PE;CZ36145TLT;Servidor;;Liray;;;;;
+8;:Equipo;;;;;;;;LB_B;;;;;;;;;;;;;;;;;;;;
+9;:Equipo;;;;;;;;LB_A;;;;;;;;;;;;;;;;;;;;
+10;:Equipo;;Colina;;si;;HP;;AIRDOR12;172.23.114.25;;ProLiant DL360 Gen9;;;;;;Metropolitana;;PE;CZ36145TLS;Servidor;;Liray;;;;;
+11;:Equipo;;Colina;;si;;HP;;AIRDOR13;172.23.114.26;;ProLiant DL360 Gen9;;;;;;Metropolitana;;PE;CZ36145TLR;Servidor;;Liray;;;;;
+12;:Equipo;;;;;;;;CHSW02DOR;;;;;;;;;;;;;;;;;;;;
+13;:Equipo;;;;;;;;CCN7;;;;;;;;;;;;;;;;;;;;
+14;:Equipo;;;;;;;;CCN6;;;;;;;;;;;;;;;;;;;;
+15;:Equipo;;;;;;;;Monitor Server eno5;;;;;;;;;;;;;;;;;;;;
+16;:Equipo;;;;;;;;SCLLIR-MPE2;;;;;;;;;;;;;;;;;;;;
+17;:Puerto;;;Conexion back2back CH-SW-02-LRY;;activo;;CH-SW-01-LRY_port-channel1;CH-SW-02-LRY;;LNK:CH-SW-01-LRY:port-channel1__CH-SW-02-LRY:port-channel1;;trunk;;;CH-SW-01-LRY;port-channel1;;CH-SW-02-LRY;;;;interface lógica;;;506,651,655-658,662;;;
+18;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/1;;;;;trunk;;;CH-SW-01-LRY;Ethernet1/1;;;;;;físico;;;503;;;
+19;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/2;;;;;;;;CH-SW-01-LRY;Ethernet1/2;;;;;;físico;;;;;;
+20;:Puerto;full;;OCC4 eno5;;activo;;CH-SW-01-LRY_Ethernet1/3;OCC4;;LNK:CH-SW-01-LRY:Ethernet1/3__OCC4;;access;;;CH-SW-01-LRY;Ethernet1/3;;OCC4;;;;físico;;1000.0;655;;;
+21;:Puerto;full;;OCC4 eno6;;activo;;CH-SW-01-LRY_Ethernet1/4;OCC4;;LNK:CH-SW-01-LRY:Ethernet1/4__OCC4;;access;;;CH-SW-01-LRY;Ethernet1/4;;OCC4;;;;físico;;1000.0;662;;;
+22;:Puerto;full;;OCC4 eno7;;activo;;CH-SW-01-LRY_Ethernet1/5;OCC4;;LNK:CH-SW-01-LRY:Ethernet1/5__OCC4;;access;;;CH-SW-01-LRY;Ethernet1/5;;OCC4;;;;físico;;1000.0;661;;;
+23;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/6;;;;;;;;CH-SW-01-LRY;Ethernet1/6;;;;;;físico;;;;;;
+24;:Puerto;full;;Conexion a SDPDOR7A / Payload;;activo;;CH-SW-01-LRY_Ethernet1/7;SDPDOR7A;;LNK:CH-SW-01-LRY:Ethernet1/7__SDPDOR7A;;access;;;CH-SW-01-LRY;Ethernet1/7;;SDPDOR7A;;;;físico;;100.0;655;;;
+25;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/8;;;;;;;;CH-SW-01-LRY;Ethernet1/8;;;;;;físico;;;;;;
+26;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/9;;;;;;;;CH-SW-01-LRY;Ethernet1/9;;;;;;físico;;;;;;
+27;:Puerto;full;;SDPDOR7B-eno52;;activo;;CH-SW-01-LRY_Ethernet1/10;SDPDOR7B;;LNK:CH-SW-01-LRY:Ethernet1/10__SDPDOR7B;;access;;;CH-SW-01-LRY;Ethernet1/10;;SDPDOR7B;;;;físico;;;658;;;
+28;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/11;;;;;;;;CH-SW-01-LRY;Ethernet1/11;;;;;;físico;;;;;;
+29;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/12;;;;;;;;CH-SW-01-LRY;Ethernet1/12;;;;;;físico;;;;;;
+30;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/13;;;;;;;;CH-SW-01-LRY;Ethernet1/13;;;;;;físico;;;;;;
+31;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/14;;;;;;;;CH-SW-01-LRY;Ethernet1/14;;;;;;físico;;;;;;
+32;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/15;;;;;;;;CH-SW-01-LRY;Ethernet1/15;;;;;;físico;;;;;;
+33;:Puerto;;;Conexion a AIRDOR9 / Payload;;activo;;CH-SW-01-LRY_Ethernet1/16;AIRDOR9;;LNK:AIRDOR9__CH-SW-01-LRY:Ethernet1/16;;access;;;CH-SW-01-LRY;Ethernet1/16;;AIRDOR9;;;;físico;;;655;;;
+34;:Puerto;full;;Conexion a OCCDOR1 / Payload;;activo;;CH-SW-01-LRY_Ethernet1/17;OCCDOR1;;LNK:CH-SW-01-LRY:Ethernet1/17__OCCDOR1;;access;;;CH-SW-01-LRY;Ethernet1/17;;OCCDOR1;;;;físico;;1000.0;655;;;
+35;:Puerto;full;;Conexion a AIRDOR11 / Payload;;activo;;CH-SW-01-LRY_Ethernet1/18;AIRDOR11;;LNK:AIRDOR11__CH-SW-01-LRY:Ethernet1/18;;access;;;CH-SW-01-LRY;Ethernet1/18;;AIRDOR11;;;;físico;;100.0;655;;;
+36;:Puerto;full;;Conexion a LB_B / Payload FE;;activo;;CH-SW-01-LRY_Ethernet1/19;LB_B;;LNK:CH-SW-01-LRY:Ethernet1/19__LB-B;;access;;;CH-SW-01-LRY;Ethernet1/19;;LB_B;;;;físico;;100.0;656;;;
+37;:Puerto;full;;Conexion a LB_B / Payload BE;;activo;;CH-SW-01-LRY_Ethernet1/20;LB_B;;LNK:CH-SW-01-LRY:Ethernet1/20__LB-B;;access;;;CH-SW-01-LRY;Ethernet1/20;;LB_B;;;;físico;;100.0;655;;;
+38;:Puerto;full;;Conexion a LB_A / O&M / MGMT;;activo;;CH-SW-01-LRY_Ethernet1/21;LB_A;;LNK:CH-SW-01-LRY:Ethernet1/21__LB-A;;access;;;CH-SW-01-LRY;Ethernet1/21;;LB_A;;;;físico;;100.0;651;;;
+39;:Puerto;full;;AIRDOR12 / O&M;;activo;;CH-SW-01-LRY_Ethernet1/22;AIRDOR12;;LNK:AIRDOR12__CH-SW-01-LRY:Ethernet1/22;;access;;;CH-SW-01-LRY;Ethernet1/22;;AIRDOR12;;;;físico;;1000.0;651;;;
+40;:Puerto;full;;Conexion a AIRDOR12 / Payload;;activo;;CH-SW-01-LRY_Ethernet1/23;AIRDOR12;;LNK:AIRDOR12__CH-SW-01-LRY:Ethernet1/23;;access;;;CH-SW-01-LRY;Ethernet1/23;;AIRDOR12;;;;físico;;1000.0;655;;;
+41;:Puerto;full;;Conexion a AIRDOR12 / Sigtran2;;activo;;CH-SW-01-LRY_Ethernet1/24;AIRDOR12;;LNK:AIRDOR12__CH-SW-01-LRY:Ethernet1/24;;access;;;CH-SW-01-LRY;Ethernet1/24;;AIRDOR12;;;;físico;;100.0;653;;;
+42;:Puerto;full;;Conexion a AIRDOR13 / O&M;;activo;;CH-SW-01-LRY_Ethernet1/25;AIRDOR13;;LNK:AIRDOR13__CH-SW-01-LRY:Ethernet1/25;;access;;;CH-SW-01-LRY;Ethernet1/25;;AIRDOR13;;;;físico;;100.0;651;;;
+43;:Puerto;full;;Conexion a AIRDOR13 / Payload;;activo;;CH-SW-01-LRY_Ethernet1/26;AIRDOR13;;LNK:AIRDOR13__CH-SW-01-LRY:Ethernet1/26;;access;;;CH-SW-01-LRY;Ethernet1/26;;AIRDOR13;;;;físico;;1000.0;655;;;
+44;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/27;;;;;;;;CH-SW-01-LRY;Ethernet1/27;;;;;;físico;;;;;;
+45;:Puerto;;;Conexion Diameter a ETH5-OCCDOR1;;activo;;CH-SW-01-LRY_Ethernet1/28;OCCDOR1;;LNK:CH-SW-01-LRY:Ethernet1/28__OCCDOR1;;access;;;CH-SW-01-LRY;Ethernet1/28;;OCCDOR1;;;;físico;;;657;;;
+46;:Puerto;full;;Conexion Diameter a ETH6-OCCDOR1;;activo;;CH-SW-01-LRY_Ethernet1/29;OCCDOR1;;LNK:CH-SW-01-LRY:Ethernet1/29__OCCDOR1;;access;;;CH-SW-01-LRY;Ethernet1/29;;OCCDOR1;;;;físico;;1000.0;653;;;
+47;:Puerto;;;;;inactivo;;CH-SW-01-LRY_Ethernet1/30;;;;;;;;CH-SW-01-LRY;Ethernet1/30;;;;;;físico;;;;;;
+48;:Puerto;;;;;inactivo;;CH-SW-01-LRY_Ethernet1/31;;;;;;;;CH-SW-01-LRY;Ethernet1/31;;;;;;físico;;;;;;
+49;:Puerto;full;;Conexion a SDPDOR7B / O&M;;activo;;CH-SW-01-LRY_Ethernet1/32;SDPDOR7B;;LNK:CH-SW-01-LRY:Ethernet1/32__SDPDOR7B;;access;;;CH-SW-01-LRY;Ethernet1/32;;SDPDOR7B;;;;físico;;100.0;651;;;
+50;:Puerto;full;;Conexion a SDPDOR7A / Payload;;activo;;CH-SW-01-LRY_Ethernet1/33;SDPDOR7A;;LNK:CH-SW-01-LRY:Ethernet1/33__SDPDOR7A;;access;;;CH-SW-01-LRY;Ethernet1/33;;SDPDOR7A;;;;físico;;1000.0;655;;;
+51;:Puerto;full;;Conexion a SDPDOR7B / Sigtran2;;activo;;CH-SW-01-LRY_Ethernet1/34;SDPDOR7B;;LNK:CH-SW-01-LRY:Ethernet1/34__SDPDOR7B;;access;;;CH-SW-01-LRY;Ethernet1/34;;SDPDOR7B;;;;físico;;1000.0;653;;;
+52;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/35;;;;;;;;CH-SW-01-LRY;Ethernet1/35;;;;;;físico;;;;;;
+53;:Puerto;;;CHSW02DOR / arch-srv_net1;;activo;;CH-SW-01-LRY_Ethernet1/36;CHSW02DOR;;LNK:CH-SW-01-LRY:Ethernet1/36__CHSW02DOR;;access;;;CH-SW-01-LRY;Ethernet1/36;;CHSW02DOR;;;;físico;;;651;;;
+54;:Puerto;full;;Conexion a CMXB 0-28 (RIGHT) GE2 CCN7;;activo;;CH-SW-01-LRY_Ethernet1/37;CCN7;;LNK:CCN7__CH-SW-01-LRY:Ethernet1/37;;trunk;;;CH-SW-01-LRY;Ethernet1/37;;CCN7;;;;físico;;1000.0;222;;;
+55;:Puerto;full;;Conexion a CMXB 0-28 (RIGHT) GE4 CCN7;;activo;;CH-SW-01-LRY_Ethernet1/38;CCN7;;LNK:CCN7__CH-SW-01-LRY:Ethernet1/38;;trunk;;;CH-SW-01-LRY;Ethernet1/38;;CCN7;;;;físico;;1000.0;219-220;;;
+56;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/39;;;;;routed;;;CH-SW-01-LRY;Ethernet1/39;;;;;;físico;;;;;;
+57;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/40;;;;;monitor;;;CH-SW-01-LRY;Ethernet1/40;;;;;;físico;;;;;;
+58;:Puerto;full;;Conexion a CMXB 0-28 (RIGHT) GE2 CCN6;;activo;;CH-SW-01-LRY_Ethernet1/41;CCN6;;LNK:CCN6__CH-SW-01-LRY:Ethernet1/41;;trunk;;;CH-SW-01-LRY;Ethernet1/41;;CCN6;;;;físico;;1000.0;215-216;;;
+59;:Puerto;full;;Conexion a CMXB 0-28 (RIGHT) GE2 CCN6;;activo;;CH-SW-01-LRY_Ethernet1/42;CCN6;;LNK:CCN6__CH-SW-01-LRY:Ethernet1/42;;trunk;;;CH-SW-01-LRY;Ethernet1/42;;CCN6;;;;físico;;1000.0;218;;;
+60;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/43;;;;;;;;CH-SW-01-LRY;Ethernet1/43;;;;;;físico;;;;;;
+61;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/44;;;;;;;;CH-SW-01-LRY;Ethernet1/44;;;;;;físico;;;;;;
+62;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/45;;;;;;;;CH-SW-01-LRY;Ethernet1/45;;;;;;físico;;;;;;
+63;:Puerto;full;;Monitor Server eno5;;activo;;CH-SW-01-LRY_Ethernet1/46;Monitor Server eno5;;LNK:CH-SW-01-LRY:Ethernet1/46__MONITOR SERVER ENO5;;access;;;CH-SW-01-LRY;Ethernet1/46;;Monitor Server eno5;;;;físico;;1000.0;655;;;
+64;:Puerto;;;Conexion back2back CH-SW-02-LRY;;activo;;CH-SW-01-LRY_Ethernet1/47;CH-SW-02-LRY;;LNK:CH-SW-01-LRY:Ethernet1/47__CH-SW-02-LRY:Ethernet1/47;;trunk;;;CH-SW-01-LRY;Ethernet1/47;;CH-SW-02-LRY;;;;físico;;1000.0;506,651,655-658,662;;;
+65;:Puerto;;;Conexion back2back CH-SW-02-LRY;;activo;;CH-SW-01-LRY_Ethernet1/48;CH-SW-02-LRY;;LNK:CH-SW-01-LRY:Ethernet1/48__CH-SW-02-LRY:Ethernet1/48;;trunk;;;CH-SW-01-LRY;Ethernet1/48;;CH-SW-02-LRY;;;;físico;;1000.0;506,651,655-658,662;;;
+66;:Puerto;full;;Conexion a SCLLIR-MPE2;;activo;;CH-SW-01-LRY_Ethernet1/49;SCLLIR-MPE2;;LNK:CH-SW-01-LRY:Ethernet1/49__SCLLIR-MPE2;;trunk;;;CH-SW-01-LRY;Ethernet1/49;;SCLLIR-MPE2;;;;físico;;;215-216,218-220,222,501,506,651,653,655-658,661-662;;;
+67;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/50;;;;;;;;CH-SW-01-LRY;Ethernet1/50;;;;;;físico;;;;;;
+68;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/51;;;;;;;;CH-SW-01-LRY;Ethernet1/51;;;;;;físico;;;;;;
+69;:Puerto;;;;;activo;;CH-SW-01-LRY_Ethernet1/52;;;;;;;;CH-SW-01-LRY;Ethernet1/52;;;;;;físico;;;;;;
+70;:Puerto;;;Conexion back2back CH-SW-01-LRY;;activo;;CH-SW-02-LRY_port-channel1;CH-SW-01-LRY;;LNK:CH-SW-02-LRY:port-channel1__CH-SW-01-LRY:port-channel1;;trunk;;;CH-SW-02-LRY;port-channel1;;CH-SW-01-LRY;;;;interface lógica;;;506,651,655-658,662;;;
+71;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/1;;;;;trunk;;;CH-SW-02-LRY;Ethernet1/1;;;;;;físico;;;503;;;
+72;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/2;;;;;;;;CH-SW-02-LRY;Ethernet1/2;;;;;;físico;;;;;;
+73;:Puerto;full;;OCC4 eno5;;activo;;CH-SW-02-LRY_Ethernet1/3;OCC4;;LNK:CH-SW-02-LRY:Ethernet1/3__OCC4;;access;;;CH-SW-02-LRY;Ethernet1/3;;OCC4;;;;físico;;1000.0;655;;;
+74;:Puerto;full;;OCC4 eno6;;activo;;CH-SW-02-LRY_Ethernet1/4;OCC4;;LNK:CH-SW-02-LRY:Ethernet1/4__OCC4;;access;;;CH-SW-02-LRY;Ethernet1/4;;OCC4;;;;físico;;1000.0;662;;;
+75;:Puerto;full;;OCC4 eno7;;activo;;CH-SW-02-LRY_Ethernet1/5;OCC4;;LNK:CH-SW-02-LRY:Ethernet1/5__OCC4;;access;;;CH-SW-02-LRY;Ethernet1/5;;OCC4;;;;físico;;1000.0;661;;;
+76;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/6;;;;;;;;CH-SW-02-LRY;Ethernet1/6;;;;;;físico;;;;;;
+77;:Puerto;full;;Conexion a SDPDOR7A / Payload;;activo;;CH-SW-02-LRY_Ethernet1/7;SDPDOR7A;;LNK:CH-SW-02-LRY:Ethernet1/7__SDPDOR7A;;access;;;CH-SW-02-LRY;Ethernet1/7;;SDPDOR7A;;;;físico;;100.0;655;;;
+78;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/8;;;;;;;;CH-SW-02-LRY;Ethernet1/8;;;;;;físico;;;;;;
+79;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/9;;;;;;;;CH-SW-02-LRY;Ethernet1/9;;;;;;físico;;;;;;
+80;:Puerto;full;;SDPDOR7B-eno52;;activo;;CH-SW-02-LRY_Ethernet1/10;SDPDOR7B;;LNK:CH-SW-02-LRY:Ethernet1/10__SDPDOR7B;;access;;;CH-SW-02-LRY;Ethernet1/10;;SDPDOR7B;;;;físico;;;658;;;
+81;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/11;;;;;;;;CH-SW-02-LRY;Ethernet1/11;;;;;;físico;;;;;;
+82;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/12;;;;;;;;CH-SW-02-LRY;Ethernet1/12;;;;;;físico;;;;;;
+83;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/13;;;;;;;;CH-SW-02-LRY;Ethernet1/13;;;;;;físico;;;;;;
+84;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/14;;;;;;;;CH-SW-02-LRY;Ethernet1/14;;;;;;físico;;;;;;
+85;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/15;;;;;;;;CH-SW-02-LRY;Ethernet1/15;;;;;;físico;;;;;;
+86;:Puerto;;;Conexion a AIRDOR9 / Payload;;activo;;CH-SW-02-LRY_Ethernet1/16;AIRDOR9;;LNK:AIRDOR9__CH-SW-02-LRY:Ethernet1/16;;access;;;CH-SW-02-LRY;Ethernet1/16;;AIRDOR9;;;;físico;;;655;;;
+87;:Puerto;full;;Conexion a OCCDOR1 / Payload;;activo;;CH-SW-02-LRY_Ethernet1/17;OCCDOR1;;LNK:CH-SW-02-LRY:Ethernet1/17__OCCDOR1;;access;;;CH-SW-02-LRY;Ethernet1/17;;OCCDOR1;;;;físico;;1000.0;655;;;
+88;:Puerto;full;;Conexion a AIRDOR11 / Payload;;activo;;CH-SW-02-LRY_Ethernet1/18;AIRDOR11;;LNK:AIRDOR11__CH-SW-02-LRY:Ethernet1/18;;access;;;CH-SW-02-LRY;Ethernet1/18;;AIRDOR11;;;;físico;;100.0;655;;;
+89;:Puerto;full;;Conexion a LB_B / Payload FE;;activo;;CH-SW-02-LRY_Ethernet1/19;LB_B;;LNK:CH-SW-02-LRY:Ethernet1/19__LB-B;;access;;;CH-SW-02-LRY;Ethernet1/19;;LB_B;;;;físico;;100.0;656;;;
+90;:Puerto;full;;Conexion a LB_B / Payload BE;;activo;;CH-SW-02-LRY_Ethernet1/20;LB_B;;LNK:CH-SW-02-LRY:Ethernet1/20__LB-B;;access;;;CH-SW-02-LRY;Ethernet1/20;;LB_B;;;;físico;;100.0;655;;;
+91;:Puerto;full;;Conexion a LB_A / O&M / MGMT;;activo;;CH-SW-02-LRY_Ethernet1/21;LB_A;;LNK:CH-SW-02-LRY:Ethernet1/21__LB-A;;access;;;CH-SW-02-LRY;Ethernet1/21;;LB_A;;;;físico;;100.0;651;;;
+92;:Puerto;full;;AIRDOR12 / O&M;;activo;;CH-SW-02-LRY_Ethernet1/22;AIRDOR12;;LNK:AIRDOR12__CH-SW-02-LRY:Ethernet1/22;;access;;;CH-SW-02-LRY;Ethernet1/22;;AIRDOR12;;;;físico;;1000.0;651;;;
+93;:Puerto;full;;Conexion a AIRDOR12 / Payload;;activo;;CH-SW-02-LRY_Ethernet1/23;AIRDOR12;;LNK:AIRDOR12__CH-SW-02-LRY:Ethernet1/23;;access;;;CH-SW-02-LRY;Ethernet1/23;;AIRDOR12;;;;físico;;1000.0;655;;;
+94;:Puerto;full;;Conexion a AIRDOR12 / Sigtran2;;activo;;CH-SW-02-LRY_Ethernet1/24;AIRDOR12;;LNK:AIRDOR12__CH-SW-02-LRY:Ethernet1/24;;access;;;CH-SW-02-LRY;Ethernet1/24;;AIRDOR12;;;;físico;;100.0;653;;;
+95;:Puerto;full;;Conexion a AIRDOR13 / O&M;;activo;;CH-SW-02-LRY_Ethernet1/25;AIRDOR13;;LNK:AIRDOR13__CH-SW-02-LRY:Ethernet1/25;;access;;;CH-SW-02-LRY;Ethernet1/25;;AIRDOR13;;;;físico;;100.0;651;;;
+96;:Puerto;full;;Conexion a AIRDOR13 / Payload;;activo;;CH-SW-02-LRY_Ethernet1/26;AIRDOR13;;LNK:AIRDOR13__CH-SW-02-LRY:Ethernet1/26;;access;;;CH-SW-02-LRY;Ethernet1/26;;AIRDOR13;;;;físico;;1000.0;655;;;
+97;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/27;;;;;;;;CH-SW-02-LRY;Ethernet1/27;;;;;;físico;;;;;;
+98;:Puerto;;;Conexion Diameter a ETH5-OCCDOR1;;activo;;CH-SW-02-LRY_Ethernet1/28;OCCDOR1;;LNK:CCN7__CH-SW-02-LRY:Ethernet1/28;;access;;;CH-SW-02-LRY;Ethernet1/28;;OCCDOR1;;;;físico;;;657;;;
+99;:Puerto;full;;Conexion Diameter a ETH6-OCCDOR1;;activo;;CH-SW-02-LRY_Ethernet1/29;OCCDOR1;;LNK:CCN7__CH-SW-02-LRY:Ethernet1/29;;access;;;CH-SW-02-LRY;Ethernet1/29;;OCCDOR1;;;;físico;;1000.0;653;;;
+100;:Puerto;;;;;inactivo;;CH-SW-02-LRY_Ethernet1/30;;;;;;;;CH-SW-02-LRY;Ethernet1/30;;;;;;físico;;;;;;
+101;:Puerto;;;;;inactivo;;CH-SW-02-LRY_Ethernet1/31;;;;;;;;CH-SW-02-LRY;Ethernet1/31;;;;;;físico;;;;;;
+102;:Puerto;full;;Conexion a SDPDOR7B / O&M;;activo;;CH-SW-02-LRY_Ethernet1/32;SDPDOR7B;;LNK:CH-SW-02-LRY:Ethernet1/32__SDPDOR7B;;access;;;CH-SW-02-LRY;Ethernet1/32;;SDPDOR7B;;;;físico;;100.0;651;;;
+103;:Puerto;full;;Conexion a SDPDOR7A / Payload;;activo;;CH-SW-02-LRY_Ethernet1/33;SDPDOR7A;;LNK:CH-SW-02-LRY:Ethernet1/33__SDPDOR7A;;access;;;CH-SW-02-LRY;Ethernet1/33;;SDPDOR7A;;;;físico;;1000.0;655;;;
+104;:Puerto;full;;Conexion a SDPDOR7B / Sigtran2;;activo;;CH-SW-02-LRY_Ethernet1/34;SDPDOR7B;;LNK:CH-SW-02-LRY:Ethernet1/34__SDPDOR7B;;access;;;CH-SW-02-LRY;Ethernet1/34;;SDPDOR7B;;;;físico;;1000.0;653;;;
+105;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/35;;;;;;;;CH-SW-02-LRY;Ethernet1/35;;;;;;físico;;;;;;
+106;:Puerto;;;CHSW02DOR / arch-srv_net1;;activo;;CH-SW-02-LRY_Ethernet1/36;CHSW02DOR;;LNK:CH-SW-02-LRY:Ethernet1/36__CHSW02DOR;;access;;;CH-SW-02-LRY;Ethernet1/36;;CHSW02DOR;;;;físico;;;651;;;
+107;:Puerto;full;;Conexion a CMXB 0-28 (RIGHT) GE2 CCN7;;activo;;CH-SW-02-LRY_Ethernet1/37;CCN7;;LNK:CH-SW-02-LRY:Ethernet1/37__CMXB;;trunk;;;CH-SW-02-LRY;Ethernet1/37;;CCN7;;;;físico;;1000.0;222;;;
+108;:Puerto;full;;Conexion a CMXB 0-28 (RIGHT) GE4 CCN7;;activo;;CH-SW-02-LRY_Ethernet1/38;CCN7;;LNK:CH-SW-02-LRY:Ethernet1/38__CMXB;;trunk;;;CH-SW-02-LRY;Ethernet1/38;;CCN7;;;;físico;;1000.0;219-220;;;
+109;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/39;;;;;routed;;;CH-SW-02-LRY;Ethernet1/39;;;;;;físico;;;;;;
+110;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/40;;;;;monitor;;;CH-SW-02-LRY;Ethernet1/40;;;;;;físico;;;;;;
+111;:Puerto;full;;Conexion a CMXB 0-28 (RIGHT) GE2 CCN6;;activo;;CH-SW-02-LRY_Ethernet1/41;CCN6;;LNK:CH-SW-02-LRY:Ethernet1/41__CMXB;;trunk;;;CH-SW-02-LRY;Ethernet1/41;;CCN6;;;;físico;;1000.0;215-216;;;
+112;:Puerto;full;;Conexion a CMXB 0-28 (RIGHT) GE2 CCN6;;activo;;CH-SW-02-LRY_Ethernet1/42;CCN6;;LNK:CH-SW-02-LRY:Ethernet1/42__CMXB;;trunk;;;CH-SW-02-LRY;Ethernet1/42;;CCN6;;;;físico;;1000.0;218;;;
+113;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/43;;;;;;;;CH-SW-02-LRY;Ethernet1/43;;;;;;físico;;;;;;
+114;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/44;;;;;;;;CH-SW-02-LRY;Ethernet1/44;;;;;;físico;;;;;;
+115;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/45;;;;;;;;CH-SW-02-LRY;Ethernet1/45;;;;;;físico;;;;;;
+116;:Puerto;full;;Monitor Server eno5;;activo;;CH-SW-02-LRY_Ethernet1/46;Monitor Server eno5;;LNK:CH-SW-02-LRY:Ethernet1/46__MONITOR;;access;;;CH-SW-02-LRY;Ethernet1/46;;Monitor Server eno5;;;;físico;;1000.0;655;;;
+117;:Puerto;;;Conexion back2back CH-SW-01-LRY;;activo;;CH-SW-02-LRY_Ethernet1/47;CH-SW-01-LRY;;LNK:CH-SW-02-LRY:Ethernet1/47__CH-SW-01-LRY:Ethernet1/47;;trunk;;;CH-SW-02-LRY;Ethernet1/47;;CH-SW-01-LRY;;;;físico;;1000.0;506,651,655-658,662;;;
+118;:Puerto;;;Conexion back2back CH-SW-01-LRY;;activo;;CH-SW-02-LRY_Ethernet1/48;CH-SW-01-LRY;;LNK:CH-SW-02-LRY:Ethernet1/48__CH-SW-01-LRY:Ethernet1/48;;trunk;;;CH-SW-02-LRY;Ethernet1/48;;CH-SW-01-LRY;;;;físico;;1000.0;506,651,655-658,662;;;
+119;:Puerto;full;;Conexion a SCLLIR-MPE2;;activo;;CH-SW-02-LRY_Ethernet1/49;SCLLIR-MPE2;;;;trunk;;;CH-SW-02-LRY;Ethernet1/49;;SCLLIR-MPE2;;;;físico;;;215-216,218-220,222,501,506,651,653,655-658,661-662;;;
+120;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/50;;;;;;;;CH-SW-02-LRY;Ethernet1/50;;;;;;físico;;;;;;
+121;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/51;;;;;;;;CH-SW-02-LRY;Ethernet1/51;;;;;;físico;;;;;;
+122;:Puerto;;;;;activo;;CH-SW-02-LRY_Ethernet1/52;;;;;;;;CH-SW-02-LRY;Ethernet1/52;;;;;;físico;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;17;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;18;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;19;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;20;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;21;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;22;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;23;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;24;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;25;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;26;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;27;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;28;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;29;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;30;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;31;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;32;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;33;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;34;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;35;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;36;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;37;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;38;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;39;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;40;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;41;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;42;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;43;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;44;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;45;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;46;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;47;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;48;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;49;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;50;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;51;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;52;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;53;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;54;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;55;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;56;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;57;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;58;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;59;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;60;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;61;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;62;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;63;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;64;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;65;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;66;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;67;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;68;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;0;69;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;70;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;71;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;72;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;73;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;74;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;75;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;76;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;77;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;78;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;79;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;80;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;81;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;82;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;83;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;84;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;85;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;86;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;87;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;88;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;89;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;90;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;91;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;92;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;93;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;94;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;95;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;96;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;97;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;98;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;99;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;100;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;101;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;102;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;103;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;104;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;105;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;106;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;107;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;108;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;109;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;110;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;111;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;112;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;113;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;114;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;115;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;116;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;117;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;118;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;119;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;120;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;121;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;1;122;SW_PO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;20;2;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;21;2;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;22;2;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;24;3;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;27;4;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;33;5;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;34;6;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;35;7;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;36;8;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;37;8;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;38;9;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;39;10;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;40;10;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;41;10;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;42;11;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;43;11;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;45;6;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;46;6;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;49;4;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;50;3;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;51;4;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;53;12;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;54;13;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;55;13;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;58;14;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;59;14;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;63;15;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;66;16;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;73;2;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;74;2;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;75;2;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;77;3;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;80;4;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;86;5;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;87;6;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;88;7;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;89;8;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;90;8;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;91;9;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;92;10;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;93;10;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;94;10;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;95;11;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;96;11;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;98;6;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;99;6;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;102;4;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;103;3;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;104;4;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;106;12;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;107;13;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;108;13;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;111;14;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;112;14;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;116;15;CONECTA_A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;119;16;CONECTA_A
